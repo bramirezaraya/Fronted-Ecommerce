@@ -1,0 +1,296 @@
+
+
+.contenedor{
+    background-color: rgb(255, 255, 255);
+    margin-top: 80px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* padding: 1rem; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedorProductos{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+}
+
+.contenedorBusqueda{
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(130,130,130,0.78);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(130,130,130,0.78);
+    box-shadow: 0px 2px 5px 0px rgba(130,130,130,0.78);
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* padding-right: 5rem; */
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+.inputBusqueda{
+    margin-right: 10rem;
+    /* border: 0.1rem  rgb(133, 131, 131); */
+    position: relative;
+    border-radius: 20px;
+}
+
+.busqueda{
+    width: 18rem;
+    border: 0.1rem solid rgb(130,130,130,0.78);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 2.3rem;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.busqueda:focus{
+    border: 0.1rem solid rgb(130,130,130,0.78);
+    outline: none;
+}
+
+.lupita{
+    position: absolute;
+    left: 10px;
+    top: 7px;
+}
+
+.contenedorPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    margin-left: 20rem;
+    width: 90%;
+}
+.elemento{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    width: 75%;
+    transition: 0.3s ease-in-out;
+}
+
+.imagenes{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 30%;
+    /* max-width: 30%; */
+    border-radius: 0px 0px 20px 20px;
+    flex-grow: 1;
+    gap: 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.imagenes:hover{
+    transform: scale(1.02);
+    /* border: 1px solid black; */
+}
+
+.imagen{
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Ajusta la altura proporcionalmente al ancho */
+    display: block; /* Elimina el espacio adicional debajo de la imagen */
+}
+
+.relativo{
+    position: relative;
+}
+
+.corazones{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+}
+
+.textoNegro{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+.contenedorInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info p{
+    margin: 0;
+}
+
+.description{
+    opacity: 0.5;
+}
+
+
+
+.contenedorBotones{
+    display: flex;
+    flex-direction: row;
+    /* gap: 3rem; */
+    width: 60rem;
+    /* justify-content: center; */
+    height: 4rem;
+    /* align-items: center; */
+    position: relative;
+}
+
+.resultados{
+    display: flex;
+    justify-content:'flex-start';
+    width: 200px;
+    align-items: center;
+    /* margin-left: 70px; */
+    position: absolute;
+    top: 30%;
+}
+
+.containerBoton{
+    display: flex;
+    flex-direction:row; 
+    width:100%;
+    position: relative;
+    justify-content:center;
+    align-items:center;
+    gap: 40px;
+}
+
+.estiloLinkDescripcion{
+    display: flex;
+    flex-direction: column;
+    text-decoration:'none';
+    color:black;
+    gap: 1rem;
+    outline: none;
+}
+
+
+.botones{
+    text-decoration: none;
+    width: 3rem;
+    height: 2rem;
+    border:0;
+    cursor: pointer;
+    color: white;
+    border-radius: 1rem;
+    background-color: rgb(236, 240, 240);
+}
+
+.botones:hover{
+    background-color: rgb(231, 223, 223);
+}
+
+.paginationNum{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.circuloPagina{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    text-decoration: none;
+    border: 0;  
+    cursor: pointer;
+    background-color: white;
+}
+
+.circuloPagina:hover{
+    background-color: rgb(231, 223, 223);
+}
+
+.fondoColor{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    text-decoration: none;
+    border: 0;  
+    cursor: pointer;
+    background-color: rgb(39, 38, 38);
+    color: white;
+}
+
+
+.contenedorFiltros{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 17%;
+    max-width: 17%;
+    flex-grow: 1;
+    position: fixed;
+    left: 0;
+    padding: 1rem;
+    height: 90%;
+    /* overflow: scroll; */
+}
+
+.filtro{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 0.5rem;
+}
+
+
+.filtrosDespliegue{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botonFiltroDespliegue{
+    text-decoration: none;
+    outline: none;
+    border: 0;
+    background-color: white;
+}
+
+.contenedorCheckInput{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.checkInput{
+    width: 100%;
+    margin-left: 1rem;
+}

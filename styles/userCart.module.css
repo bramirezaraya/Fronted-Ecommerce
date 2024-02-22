@@ -1,0 +1,53 @@
+.contenedor{
+    margin-top: 100px;
+    background-color: rgb(236, 236, 236);
+    min-height: 50rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorCartVacio{
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0rem 10rem;
+}
+
+.contenedorInfoCartVacio{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.cartVacioInfo{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+.botonCartVacio{
+    border: none;
+    background-color: rgb(255, 123, 0);
+    width: 18rem;
+    height: 50px;
+    border-radius: 2rem;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.botonCartVacio:hover{
+    background-color: rgb(224, 115, 12);
+}
+
+.contenedorCarrito{
+    display: flex;
+    flex-direction: row;
+    /* background-color: white; */
+    justify-content: space-around;
+    margin: 0px 10rem;
+}

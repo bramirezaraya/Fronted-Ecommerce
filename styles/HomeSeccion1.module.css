@@ -1,0 +1,81 @@
+
+.contenedor{
+    position: relative;
+    width: 100%;
+    height: 40rem;
+    background-image: url('../public//estadio.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: transparent;
+    background-position: center;
+    z-index: 1;
+    background-position: left top;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenedorNegro{
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedorDatos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.textoTitulo{
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.textoDescripcion{
+    color: white;
+    font-weight: 500;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.contenedorBoton{
+    display: flex;
+    flex: row;
+    justify-content: center;
+}
+
+.boton{
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    outline: none;
+    width: 12rem;
+    height: 2rem;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 2rem;
+    color: white;
+    border: 0.15rem solid rgb(240, 57, 57);
+    transition: 0.5s;
+}
+
+.boton:hover{
+    background-color: rgb(240, 57, 57);
+}

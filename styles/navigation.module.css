@@ -1,0 +1,224 @@
+.contenedor{
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* box-shadow:
+    inset 0 -3em 3em rgb(255, 255, 255),
+    0 0 0 2px rgb(228, 225, 225),
+    0.3em 0.3em 1em rgba(196, 194, 194, 0.6); */
+    /* backdrop-filter: blur(0.4rem); */
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+    /* position: absolute;
+    right: 2rem;
+    top: 40%; */
+}
+
+.titulo{
+    font-weight: 800;
+    margin: 0;
+    outline: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.contenedorTitulo{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.textoLista{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    outline: none;
+    text-decoration: none;
+    transition: 0.4s;
+    font-weight: 400;
+}
+
+.textoListaSeleccionado{
+    border-bottom: 1px solid #034AA5;
+    color: #034AA5;
+}
+
+.textoLista:hover{
+    color: #034AA5;
+}
+
+.datosCarritos{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+    padding: 1rem;
+}
+
+.botones{
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.4rem;
+    position: relative;
+    padding: 0.7rem;
+}
+
+.botones p{
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 1rem;
+    color: black;
+}
+
+.contenedorLogin{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.contenedorLogin p{
+    margin: 0;
+}
+
+.datosLogin{
+    border-right: 1px solid black;
+    padding-right: 0.5rem;
+}
+
+.login{
+    font-weight: 600;
+}
+
+.log{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    top:100%;
+    right: 7.8rem;
+    border-radius: 0.5rem;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.botonLogin{
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background-color: #1174F3;
+    border-radius: 1rem;
+    color: white;
+    font-weight: 600;
+    transition: all ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botonLogin:hover{
+    background-color: #034AA5 ;
+}
+
+.signUp{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.signUp p{
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.botonSignUp{
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1174F3;
+}
+
+
+.ContenedorDatosLog{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+    padding: 1rem;
+    margin-right: 7.5rem;
+}
+
+.contenedorLog{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.contenedorLog p{
+    margin: 0;
+}
+
+
+.favoritos{
+    cursor: pointer;
+    font-size: 15px;
+    width: 90%;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid rgb(37, 37, 37);
+}
+
+.carritoLargoProd{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    position: absolute;
+    top: 5%;
+    right: 0%;
+    color: white;
+    background-color: rgb(3, 7, 31);
+    border-radius: 1rem;
+    width: 10px;
+    height: 10px;
+    font-size: 13px;
+    padding: 0.7rem;
+}
